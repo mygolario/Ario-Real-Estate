@@ -1,70 +1,94 @@
-# Ario Real Estate Landing Page
+# Ario Real Estate – Landing Page (Persian RTL)
 
-A premium, pixel-perfect, RTL landing page for Ario Real Estate, built with **Next.js 14 (App Router)**, **TypeScript**, and **Tailwind CSS**.
+<div dir="rtl">
 
-## Tech Stack
+## معرفی پروژه
 
-- **Framework**: Next.js 14 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Font**: Vazirmatn (via `next/font/google`)
-- **Icons**: Lucide React
-- **Images**: Unsplash (configured in `next.config.ts`)
+این پروژه یک لندینگ‌پیج حرفه‌ای و کاملاً ریسپانسیو برای معرفی پلتفرم **آریو املاک** است. طراحی این صفحه با تمرکز بر تجربه کاربری (UX) مدرن، تایپوگرافی استاندارد فارسی (وزیرمتن) و نمایش صحیح در تمامی دستگاه‌ها انجام شده است.
 
-## Features
+</div>
 
-- **RTL Support**: Fully configured for Persian language (`dir="rtl"`).
-- **Responsive Design**: Optimized for Mobile, Tablet, and Desktop.
-- **Modern UI**: Glassmorphism, soft shadows, and smooth transitions.
-- **Components**: Modular and reusable component structure.
+> "A fully responsive, modern real-estate landing page built with Next.js."
 
-## Getting Started
+---
 
-### Prerequisites
+## 🔗 Live Demo
+**View the live project here:** [https://ario-real-estate.vercel.app/](https://ario-real-estate.vercel.app/)
 
-- Node.js 18+ installed.
+---
 
-### Installation
+## 🛠 Tech Stack
 
-1.  Clone the repository (or use the provided files).
-2.  Install dependencies:
+This project is built using the latest modern web technologies:
 
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Library**: [React 19](https://react.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Font**: Vazirmatn (Google Fonts)
+- **Deployment**: [Vercel](https://vercel.com/)
+
+---
+
+## ✨ Features
+
+- **📱 Fully Responsive**: Optimized for mobile, tablet, and desktop screens.
+- **🌙 Modern UI/UX**: Glassmorphism effects, smooth transitions, and clean layout.
+- **⚡ High Performance**: Built with Next.js for optimal speed and SEO.
+- **🌍 RTL Support**: Native Right-to-Left layout configuration for Persian.
+- **🔍 SEO Optimized**: Comprehensive metadata, OpenGraph, and Twitter Card tags.
+- **🎨 Sections**:
+  - **Hero**: Immersive search bar and background.
+  - **Properties**: Grid layout for featured listings.
+  - **Services**: Service cards with hover effects.
+  - **Neighborhoods**: Visual guide to popular areas.
+  - **Market Analysis**: Data-driven insights section.
+  - **Testimonials**: User reviews and social proof.
+  - **Mobile Menu**: Smooth sliding drawer navigation with backdrop.
+
+---
+
+## 🚀 Installation & Setup
+
+Follow these steps to run the project locally:
+
+1.  **Clone the repository:**
     ```bash
-    npm install
+    git clone https://github.com/your-username/ario-real-estate.git
+    cd ario-real-estate
     ```
 
-### Development
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    ```
 
-Run the development server:
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-```bash
-npm run dev
-```
+4.  **Open in browser:**
+    Navigate to [http://localhost:3000](http://localhost:3000).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-### Build
+## 📦 Build for Production
 
-Build the application for production:
+To create an optimized production build:
 
 ```bash
 npm run build
-```
-
-Start the production server:
-
-```bash
 npm start
 ```
 
-## Project Structure
+---
 
-- `app/`: App Router pages and layout.
-- `components/`: Reusable UI components (Header, Hero, Sections, Footer).
-- `public/`: Static assets.
-- `next.config.ts`: Configuration for remote images.
-- `tailwind.config.ts`: Tailwind configuration.
+## 📄 License
 
-## Images
-
-All images are sourced from Unsplash. The `next.config.ts` file is configured to allow loading images from `images.unsplash.com`.
+This project is open-source and available under the [MIT License](LICENSE).
